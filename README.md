@@ -13,17 +13,17 @@
 ## Installation
 
 ```bash
-$ npm i @scalio/nest-couchdb nano
+$ npm i github:tosscaster/nest-couchdb nano
 ```
 
 ## Usage
 
-`@scalio/nest-couchdb` uses [nano](https://www.npmjs.com/package/nano) as a data provider for CouchDB and the `Repository` pattern to handle all documents related operations.
+`nest-couchdb` uses [nano](https://www.npmjs.com/package/nano) as a data provider for CouchDB and the `Repository` pattern to handle all documents related operations.
 
 First, let's create an `Entity`:
 
 ```typescript
-import { Entity, CouchDbEntity } from '@scalio/nest-couchdb';
+import { Entity, CouchDbEntity } from 'nest-couchdb';
 
 @Entity('cats')
 export class Cat extends CouchDbEntity {
@@ -46,7 +46,7 @@ Then, we need to import `CouchDbModule` in our `ApplicationModule`:
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { CouchDbModule } from '@scalio/nest-couchdb';
+import { CouchDbModule } from 'nest-couchdb';
 
 @Module({
   imports: [
@@ -65,7 +65,7 @@ In our `CatsModule` we need to initiate repository for our `Cat` entity:
 
 ```typescript
 import { Module } from '@nestjs/common';
-import { CouchDbModule } from '@scalio/nest-couchdb';
+import { CouchDbModule } from 'nest-couchdb';
 import { CatsService } from './cats.service';
 import { CatsController } from './cats.controller';
 import { Cat } from './cat.entity';
@@ -83,7 +83,7 @@ And here is the usage of the repository in the service:
 ```typescript
 import { DocumentListResponse } from 'nano';
 import { Injectable } from '@nestjs/common';
-import { InjectRepository, Repository } from '@scalio/nest-couchdb';
+import { InjectRepository, Repository } from 'nest-couchdb';
 import { Cat } from './cat.entity';
 
 @Injectable()

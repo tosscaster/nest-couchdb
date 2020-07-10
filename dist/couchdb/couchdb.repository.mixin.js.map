@@ -1,0 +1,1 @@
+{"version":3,"file":"couchdb.repository.mixin.js","sourceRoot":"","sources":["../../src/couchdb/couchdb.repository.mixin.ts"],"names":[],"mappings":";;AAIA,SAAgB,sBAAsB,CACpC,MAAwB,EACxB,MAAS;IAET,MAAM,iBAAiB;QAGrB;YACE,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;QACvB,CAAC;KACF;IAED,MAAM,CAAC,MAAM,CAAC,iBAAiB,CAAC,SAAS,EAAE,MAAM,CAAC,CAAC;IAEnD,OAAO,iBAAwB,CAAC;AAClC,CAAC;AAfD,wDAeC"}

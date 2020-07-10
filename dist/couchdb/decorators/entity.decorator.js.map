@@ -1,0 +1,1 @@
+{"version":3,"file":"entity.decorator.js","sourceRoot":"","sources":["../../../src/couchdb/decorators/entity.decorator.ts"],"names":[],"mappings":";;AAAA,4DAA+D;AAElD,QAAA,MAAM,GAAG,CAAC,EAAU,EAAE,EAAE,CAAC,CAAC,MAAc,EAAE,EAAE;IACvD,OAAO,CAAC,cAAc,CAAC,2CAAuB,EAAE,EAAE,EAAE,MAAM,CAAC,CAAC;AAC9D,CAAC,CAAC"}

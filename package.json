@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "yarn build:clean",
     "build:clean": "cd dist && rm -rf `ls | grep -v \"LICENSE\\|package.json\\|README.md\"`",
